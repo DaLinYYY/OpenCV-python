@@ -13,7 +13,7 @@
 
 图像坐标的起始点是在左上角，所以行对应的是y，列对应的是x：
 
-![](../img/cv2_image_coordinate_channels.jpg)
+![](https://github.com/DaLinYYY/OpenCV-python/blob/master/img/cv2_image_coordinate_channels.jpg)
 
 ### 加载图片
 
@@ -50,7 +50,7 @@ cv2.waitKey(0)
 
 参数1是窗口的名字，参数2是要显示的图片。不同窗口之间用窗口名区分，所以窗口名相同就表示是同一个窗口，显示结果如下：
 
-![二值化处理](../img/imgtest_gray.jpg)
+![二值化处理](https://github.com/DaLinYYY/OpenCV-python/blob/master/img/imgtest_gray.jpg)
 
 `cv2.waitKey()`是让程序暂停的意思，参数是等待时间（毫秒ms）。时间一到，会继续执行接下来的程序，传入0的话表示一直等待。等待期间也可以获取用户的按键输入：`k = cv2.waitKey(0)`（[练习1](#练习)）。
 
@@ -108,7 +108,7 @@ cv2.waitKey(0)
 cv2.imwrite('img\imgtest_gray.jpg', img)
 
 ```
-![原图像](../img/imgtest.jpg)
+![原图像](https://github.com/DaLinYYY/OpenCV-python/blob/master/img/imgtest.jpg)
 
 ## 接口文档
 
